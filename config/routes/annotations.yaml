@@ -1,0 +1,15 @@
+controllers:
+    resource: ../../src/Controller/
+    type: annotation
+api_bids:
+    resource: ../../src/Controller/API/Bids/
+    type: annotation
+    prefix: '/api/bids'
+users:
+    resource: ../../src/Controller/API/Users/
+    type: annotation
+    prefix: '/api/users'
+files:
+    resource: ../../src/Controller/API/Files/
+    type: annotation
+    prefix: '/api/files'
